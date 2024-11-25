@@ -42,6 +42,11 @@ public class Program2 {
 			}
 
 			CalculadoraMaisDivisores.calculaMaiorQtd(numerosCalculados);
+			System.out.println();
+			System.out.println("\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/");
+			System.out.println("Aviso: saiba que, para um intervalo oferecido, é possível ter números que compartilham a mesma quantidade de divisores.");
+			System.out.println("Para esse caso específico, a aplicação informará sempre o menor valor encontrado em um intervalo qualquer.");
+			System.out.println("Isso será revisto de alguma forma depois.");
 
 			sc.close();
 		} catch (RuntimeException e) {
